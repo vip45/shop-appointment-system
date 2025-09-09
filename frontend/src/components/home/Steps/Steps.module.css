@@ -1,0 +1,32 @@
+.easy_steps {
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.easy_steps_card {
+  flex: 1 1 220px;
+  background-color: var(--bg-primary);
+  border: 1px solid var(--gray-200);
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.easy_steps_card p:first-child {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-600);
+}
+
+.easy_steps_card p:last-child {
+  font-size: 0.95rem;
+  color: var(--gray-700);
+}
+
+.easy_steps_card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}

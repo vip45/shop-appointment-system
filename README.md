@@ -108,3 +108,76 @@ This project is licensed under the **MIT License**.
 ---
 
 💡 *This Appointment Booking System bridges the gap between service providers and consumers, ensuring convenience, efficiency, and a professional user experience.*
+
+frontend/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Header/
+│   │   │   │   ├── Header.jsx
+│   │   │   │   └── Header.module.css
+│   │   │   ├── Footer/
+│   │   │   ├── Navbar/
+│   │   │   ├── LoadingSpinner/
+│   │   │   ├── Modal/
+│   │   │   ├── Button/
+│   │   │   ├── Input/
+│   │   │   └── Card/
+│   │   ├── auth/
+│   │   │   ├── LoginForm/
+│   │   │   ├── RegisterForm/
+│   │   │   └── ProtectedRoute/
+│   │   ├── shop/
+│   │   │   ├── ShopCard/
+│   │   │   ├── ShopList/
+│   │   │   ├── ShopDetails/
+│   │   │   ├── ShopForm/
+│   │   │   └── ServiceForm/
+│   │   ├── booking/
+│   │   │   ├── BookingForm/
+│   │   │   ├── BookingCard/
+│   │   │   ├── Calendar/
+│   │   │   └── TimeSlots/
+│   │   └── search/
+│   │       ├── SearchBar/
+│   │       ├── FilterPanel/
+│   │       └── CategoryFilter/
+│   ├── pages/
+│   │   ├── Home/
+│   │   ├── Login/
+│   │   ├── Register/
+│   │   ├── Dashboard/
+│   │   ├── ShopProfile/
+│   │   ├── ShopDetails/
+│   │   ├── MyAppointments/
+│   │   ├── ManageAppointments/
+│   │   └── NotFound/
+│   ├── context/
+│   │   ├── AuthContext.js
+│   │   ├── ShopContext.js
+│   │   └── BookingContext.js
+│   ├── hooks/
+│   │   ├── useAuth.js
+│   │   ├── useLocalStorage.js
+│   │   └── useDebounce.js
+│   ├── services/
+│   │   ├── api.js
+│   │   ├── authService.js
+│   │   ├── shopService.js
+│   │   └── bookingService.js
+│   ├── utils/
+│   │   ├── constants.js
+│   │   ├── helpers.js
+│   │   └── mockData.js
+│   ├── styles/
+│   │   ├── globals.css
+│   │   ├── variables.css
+│   │   └── mixins.css
+│   ├── App.js
+│   ├── App.module.css
+│   └── index.js
+├── package.json
+└── README.md

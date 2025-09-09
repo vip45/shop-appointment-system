@@ -1,0 +1,43 @@
+.footer {
+  background-color: var(--primary-700);
+  color: white;
+  padding: 2rem 1rem;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.left p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--gray-300);
+}
+
+.right h4 {
+  margin-bottom: 0.5rem;
+}
+
+.right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.right li {
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+}
+
+.right li:hover {
+  color: var(--secondary-500);
+}

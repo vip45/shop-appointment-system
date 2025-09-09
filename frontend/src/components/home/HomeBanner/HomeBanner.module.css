@@ -1,0 +1,35 @@
+.homebanner {
+  background: linear-gradient(135deg, var(--primary-500), var(--primary-600));
+  color: white;
+  text-align: center;
+  padding: 6rem 2rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.homebanner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.homebanner p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: rgba(255,255,255,0.9);
+}
+
+.homebanner button {
+  background-color: var(--secondary-500);
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.homebanner button:hover {
+  background-color: var(--secondary-600);
+  transform: translateY(-2px);
+}
