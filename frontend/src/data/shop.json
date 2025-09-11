@@ -1,0 +1,371 @@
+[
+  {
+    "shopId": 101,
+    "shopName": "SalonX",
+    "shopType": "salon",
+    "rating": 4.5,
+    "totalReviews": 128,
+    "address": "Shop 12, MG Road, Fort, Mumbai - 400001",
+    "phone": "+91 98765 43210",
+    "email": "contact@salonx.com",
+    "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300&h=200&fit=crop",
+    "bannerImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=300&fit=crop",
+    "openTime": "09:00",
+    "closeTime": "21:00",
+    "isOpen": true,
+    "featured": true,
+    "category": "Beauty & Wellness",
+    "tags": ["Premium", "Unisex", "AC"],
+    "description": "Premium unisex salon offering professional hair and beauty services with experienced stylists.",
+    "services": [
+      {
+        "id": 1,
+        "name": "Classic Haircut",
+        "description": "Professional haircut with wash and basic styling",
+        "price": 250,
+        "originalPrice": 300,
+        "duration": "30 mins",
+        "category": "Hair",
+        "popular": true,
+        "image": "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=200&h=150&fit=crop"
+      },
+      {
+        "id": 2,
+        "name": "Beard Styling & Shave",
+        "description": "Complete beard grooming with hot towel treatment",
+        "price": 150,
+        "duration": "15 mins",
+        "category": "Grooming",
+        "popular": false,
+        "image": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=200&h=150&fit=crop"
+      },
+      {
+        "id": 3,
+        "name": "Hair Wash & Blow Dry",
+        "description": "Deep cleanse with premium shampoo and professional blow dry",
+        "price": 180,
+        "duration": "25 mins",
+        "category": "Hair",
+        "popular": false,
+        "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=200&h=150&fit=crop"
+      },
+      {
+        "id": 4,
+        "name": "Facial Treatment",
+        "description": "Hydrating facial with cleansing and moisturizing",
+        "price": 800,
+        "duration": "45 mins",
+        "category": "Skincare",
+        "popular": true,
+        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=200&h=150&fit=crop"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "customerName": "Rahul M.",
+        "rating": 5,
+        "comment": "Excellent service! Very professional staff.",
+        "date": "2024-09-10",
+        "serviceId": 1
+      },
+      {
+        "id": 2,
+        "customerName": "Priya S.",
+        "rating": 4,
+        "comment": "Good haircut, will visit again.",
+        "date": "2024-09-08",
+        "serviceId": 1
+      }
+    ]
+  },
+  {
+    "shopId": 102,
+    "shopName": "StyleHub",
+    "shopType": "salon",
+    "rating": 4.2,
+    "totalReviews": 89,
+    "address": "2nd Floor, Phoenix Mall, Andheri West, Mumbai - 400053",
+    "phone": "+91 87654 32109",
+    "email": "info@stylehub.com",
+    "image": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=300&h=200&fit=crop",
+    "bannerImage": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&h=300&fit=crop",
+    "openTime": "10:00",
+    "closeTime": "22:00",
+    "isOpen": true,
+    "featured": false,
+    "category": "Beauty & Wellness",
+    "tags": ["Trendy", "Women Specialist", "Mall Location"],
+    "description": "Modern styling studio specializing in contemporary cuts and color treatments.",
+    "services": [
+      {
+        "id": 5,
+        "name": "Designer Haircut",
+        "description": "Trendy cuts by expert stylists with consultation",
+        "price": 300,
+        "duration": "35 mins",
+        "category": "Hair",
+        "popular": true,
+        "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=200&h=150&fit=crop"
+      },
+      {
+        "id": 6,
+        "name": "Hair Color & Highlights",
+        "description": "Professional coloring with premium products",
+        "price": 1200,
+        "originalPrice": 1500,
+        "duration": "90 mins",
+        "category": "Hair",
+        "popular": true,
+        "image": "https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?w=200&h=150&fit=crop"
+      },
+      {
+        "id": 7,
+        "name": "Keratin Treatment",
+        "description": "Smoothing treatment for frizz-free hair",
+        "price": 2500,
+        "duration": "120 mins",
+        "category": "Hair Treatment",
+        "popular": false,
+        "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=200&h=150&fit=crop"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 3,
+        "customerName": "Anjali K.",
+        "rating": 4,
+        "comment": "Great hair color results! Staff is friendly.",
+        "date": "2024-09-09",
+        "serviceId": 6
+      }
+    ]
+  },
+  {
+    "shopId": 103,
+    "shopName": "BarberShop Classic",
+    "shopType": "barbershop",
+    "rating": 4.7,
+    "totalReviews": 156,
+    "address": "Lane 3, Linking Road, Bandra West, Mumbai - 400050",
+    "phone": "+91 98123 45678",
+    "email": "classic@barbershop.com",
+    "image": "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=300&h=200&fit=crop",
+    "bannerImage": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=300&fit=crop",
+    "openTime": "08:00",
+    "closeTime": "20:00",
+    "isOpen": true,
+    "featured": true,
+    "category": "Grooming",
+    "tags": ["Traditional", "Men Only", "Quick Service"],
+    "description": "Traditional barbershop with classic cuts and authentic grooming experience.",
+    "services": [
+      {
+        "id": 8,
+        "name": "Classic Haircut",
+        "description": "Traditional scissor cut with precision styling",
+        "price": 200,
+        "duration": "25 mins",
+        "category": "Hair",
+        "popular": true,
+        "image": "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=200&h=150&fit=crop"
+      },
+      {
+        "id": 9,
+        "name": "Hot Towel Shave",
+        "description": "Classic wet shave with hot towel and aftershave",
+        "price": 120,
+        "duration": "20 mins",
+        "category": "Grooming",
+        "popular": true,
+        "image": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=200&h=150&fit=crop"
+      },
+      {
+        "id": 10,
+        "name": "Beard Trim & Shape",
+        "description": "Professional beard trimming and shaping",
+        "price": 100,
+        "duration": "15 mins",
+        "category": "Grooming",
+        "popular": false,
+        "image": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=200&h=150&fit=crop"
+      },
+      {
+        "id": 11,
+        "name": "Head Massage",
+        "description": "Relaxing scalp massage with herbal oils",
+        "price": 150,
+        "duration": "20 mins",
+        "category": "Wellness",
+        "popular": false,
+        "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=200&h=150&fit=crop"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 4,
+        "customerName": "Vikram P.",
+        "rating": 5,
+        "comment": "Best traditional shave in Mumbai!",
+        "date": "2024-09-11",
+        "serviceId": 9
+      },
+      {
+        "id": 5,
+        "customerName": "Arjun R.",
+        "rating": 5,
+        "comment": "Quick and professional service.",
+        "date": "2024-09-07",
+        "serviceId": 8
+      }
+    ]
+  },
+  {
+    "shopId": 104,
+    "shopName": "Nail Art Studio",
+    "shopType": "nail_salon",
+    "rating": 4.3,
+    "totalReviews": 67,
+    "address": "Shop 8, Hill Road, Bandra West, Mumbai - 400050",
+    "phone": "+91 93456 78901",
+    "email": "hello@nailartstudio.com",
+    "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300&h=200&fit=crop",
+    "bannerImage": "https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=800&h=300&fit=crop",
+    "openTime": "10:00",
+    "closeTime": "19:00",
+    "isOpen": false,
+    "featured": false,
+    "category": "Beauty & Wellness",
+    "tags": ["Nail Art", "Luxury", "Instagram Worthy"],
+    "description": "Specialized nail art studio offering creative designs and premium nail care services.",
+    "services": [
+      {
+        "id": 12,
+        "name": "Gel Manicure",
+        "description": "Long-lasting gel polish with nail shaping and cuticle care",
+        "price": 600,
+        "duration": "45 mins",
+        "category": "Nails",
+        "popular": true,
+        "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=200&h=150&fit=crop"
+      },
+      {
+        "id": 13,
+        "name": "Nail Art Design",
+        "description": "Custom nail art with intricate designs and embellishments",
+        "price": 800,
+        "duration": "60 mins",
+        "category": "Nails",
+        "popular": true,
+        "image": "https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=200&h=150&fit=crop"
+      },
+      {
+        "id": 14,
+        "name": "Pedicure",
+        "description": "Complete foot care with exfoliation and moisturizing",
+        "price": 500,
+        "duration": "50 mins",
+        "category": "Nails",
+        "popular": false,
+        "image": "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?w=200&h=150&fit=crop"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 6,
+        "customerName": "Sneha T.",
+        "rating": 4,
+        "comment": "Amazing nail art! Very creative designs.",
+        "date": "2024-09-06",
+        "serviceId": 13
+      }
+    ]
+  },
+  {
+    "shopId": 105,
+    "shopName": "Wellness Spa",
+    "shopType": "spa",
+    "rating": 4.6,
+    "totalReviews": 203,
+    "address": "3rd Floor, Palladium Mall, Lower Parel, Mumbai - 400013",
+    "phone": "+91 98765 12345",
+    "email": "relax@wellnessspa.com",
+    "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=300&h=200&fit=crop",
+    "bannerImage": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&h=300&fit=crop",
+    "openTime": "09:00",
+    "closeTime": "21:00",
+    "isOpen": true,
+    "featured": true,
+    "category": "Wellness & Spa",
+    "tags": ["Luxury", "Relaxation", "Couple Friendly"],
+    "description": "Premium wellness spa offering rejuvenating treatments and therapeutic massages.",
+    "services": [
+      {
+        "id": 15,
+        "name": "Swedish Massage",
+        "description": "Full body relaxing massage with aromatic oils",
+        "price": 1500,
+        "duration": "60 mins",
+        "category": "Massage",
+        "popular": true,
+        "rating": 4.7,
+        "totalRatings": 187,
+        "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=200&h=150&fit=crop"
+      },
+      {
+        "id": 16,
+        "name": "Deep Tissue Massage",
+        "description": "Therapeutic massage for muscle tension relief",
+        "price": 1800,
+        "duration": "75 mins",
+        "category": "Massage",
+        "popular": true,
+        "rating": 4.8,
+        "totalRatings": 213,
+        "image": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=200&h=150&fit=crop"
+      },
+      {
+        "id": 17,
+        "name": "Aromatherapy Session",
+        "description": "Relaxing treatment with essential oils and steam",
+        "price": 1200,
+        "duration": "50 mins",
+        "category": "Wellness",
+        "popular": false,
+        "rating": 4.4,
+        "totalRatings": 89,
+        "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=200&h=150&fit=crop"
+      },
+      {
+        "id": 18,
+        "name": "Couple Spa Package",
+        "description": "Romantic spa experience for two with champagne",
+        "price": 3500,
+        "duration": "90 mins",
+        "category": "Packages",
+        "popular": true,
+        "rating": 4.9,
+        "totalRatings": 156,
+        "image": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=200&h=150&fit=crop"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 7,
+        "customerName": "Kavita M.",
+        "rating": 5,
+        "comment": "Perfect place to unwind. Highly recommended!",
+        "date": "2024-09-12",
+        "serviceId": 15
+      },
+      {
+        "id": 8,
+        "customerName": "Rohit & Priya",
+        "rating": 5,
+        "comment": "Amazing couple spa experience!",
+        "date": "2024-09-05",
+        "serviceId": 18
+      }
+    ]
+  }
+]
