@@ -1,0 +1,9 @@
+.shop_name{
+    font-size: 16px;
+    background-color: rgba(135, 207, 235, 0.256);
+    padding: 4px 12px;
+    border-radius: 8px;
+    border: 2px solid #4e9cb3;
+    margin-bottom: 8px;
+    display: inline-block;
+}

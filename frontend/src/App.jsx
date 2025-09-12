@@ -7,6 +7,8 @@ import Service from "./pages/Service/Service";
 import Appointment from "./pages/Appointment/Appointment";
 import SignIn from "./pages/Login/SignIn";
 import SignUp from "./pages/Login/SignUp";
+import BookNow from "./pages/BookNow/BookNow";
+import Shop from "./pages/Shop/Shop";
 
 const App = () => {
   return (
@@ -16,9 +18,11 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/service" element={<Service />} />
+          <Route path="/service/:id" element={<Shop />} />
+          <Route path="/service/:shop/:shopService" element={<BookNow />} />
           <Route path="/appointments" element={<Appointment />} />
           <Route path="/signin" element={<SignIn />} />
-          <Route path="signup" element={<SignUp />} />
+          <Route path="/signup" element={<SignUp />} />
         </Routes>
       </main>
       <Footer />
