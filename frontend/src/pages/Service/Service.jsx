@@ -1,20 +1,31 @@
 import React from "react";
 import data from "../../data/shop.json";
 import styles from "./service.module.css";
+import { useNavigate } from 'react-router-dom';
 const Service = () => {
-  console.log(data);
+  // console.log(data);
   const allServices = data.flatMap((shop) =>
     shop.services.map((service) => ({
       ...service,
       shopName: shop.shopName,
       shopId: shop.shopId,
+      category:shop.category,
 
     }))
   );
 
-  console.log(allServices)
+  const navigate = useNavigate();
+
+const handleSpace = (str) => {
+    return str.replace(/\s+/g, '-');
+};
+
+
   return (
     <>
+
+
+
       <div className={styles.service_card_main + " row container mx-auto my-4"}>
         {allServices.map((elem, index) => (
           <div
@@ -26,7 +37,8 @@ const Service = () => {
               <p className="h5 fw-bold mb-2">{elem.name}</p>
               <p className="small mb-2">{elem.description}</p>
               <p className="fw-bold text-success mb-3">{elem.price}</p>
-              <button className="btn btn-primary ">Book Now</button>
+              <button onClick={()=>navigate(`/service/${handleSpace(elem.shopName?.trim())}/${handleSpace(elem.name.trim())}`)} className="btn btn-primary ">Book Now</button>
+              
             </div>
           </div>
         ))}

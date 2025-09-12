@@ -38,7 +38,9 @@ const Navbar = () => {
             <Link to={"/service"} className="text-white text-decoration-none">
               <li>Services</li>
             </Link>
+            <Link to={"/appointments"} className="text-white text-decoration-none">
             <li>My Appointments</li>
+            </Link>
             <li>
               <button>Logout</button>
             </li>
